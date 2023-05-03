@@ -1,0 +1,163 @@
+{
+  "uuid": "803ea6dd3a9376bd088ef70cc47e790d",
+  "path": "Offline/Energy_Meter_Final__",
+  "name": "Energy_Meter_Final__",
+  "content": "",
+  "created_at": "2023-03-17 01:03:41",
+  "updated_at": "2023-03-17 01:19:01",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "5f1b2f6d5674a1fd662794a0394af931",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "e50b67dd8b954733bc9433572cadc559": 1,
+        "c5e1a28b0ea1416ab005583a2d98f282": 1,
+        "e1351d38d0ea4147986bb80f8193052d": 3,
+        "cb1ec736522c4813a610f2582321b18c": 1,
+        "8cb0931e7aee4571ab281a4f2e7b6e80": 2,
+        "68bf05c65ce34808b54e9d5733b3b007": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          1,
+          "PKG-CAP-D5.0XF2.0-VERT",
+          "C1",
+          {
+            "BOM_Supplier Part": "2068976",
+            "BOM_Supplier": "Element14",
+            "BOM_Manufacturer": "KEMET",
+            "BOM_Manufacturer Part": "ESK106M025AC3AA",
+            "puuid": "4b40fc4a193049649ab7993bf67eaca9",
+            "uuid": "cb1ec736522c4813a610f2582321b18c"
+          }
+        ],
+        [
+          "CONN-TH_2P-P5.00",
+          2,
+          "CONN-TH_2P-P5.00",
+          "P1,P2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "be1b3456245c4373bfecde52b7e1b1d6",
+            "uuid": "8cb0931e7aee4571ab281a4f2e7b6e80"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R_AXIAL-0.5",
+          "R1,R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "100R",
+          1,
+          "R_AXIAL-0.5",
+          "R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "e46b9352a8354a20870bdcdcb288663a",
+            "uuid": "e1351d38d0ea4147986bb80f8193052d"
+          }
+        ],
+        [
+          "ESP32-DEVKITC-V4 COPY",
+          1,
+          "ESP32-DEVKITC-V4",
+          "U1",
+          {
+            "BOM_Manufacturer": "Espressif Systems",
+            "BOM_Manufacturer Part": "ESP32-DevKitC",
+            "BOM_Supplier": "Mouser",
+            "BOM_Supplier Part": "356-ESP32-DEVKITC",
+            "puuid": "b9c3b3f60d3042488951aed8bc18931f",
+            "uuid": "e50b67dd8b954733bc9433572cadc559"
+          }
+        ],
+        [
+          "ZMPT101B-SHIELD COPY",
+          1,
+          "ZMPT101B-MODULE",
+          "U2",
+          {
+            "BOM_Manufacturer": "sterling",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "LCSC",
+            "puuid": "32237b573f22441890aa5a797533ed01",
+            "uuid": "c5e1a28b0ea1416ab005583a2d98f282"
+          }
+        ],
+        [
+          "I2C LCD 16X2",
+          1,
+          "I2C LCD-16X2",
+          "U3",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e7e08da2892424fa3242ee0ebf33b7f",
+            "uuid": "68bf05c65ce34808b54e9d5733b3b007"
+          }
+        ]
+      ],
+      "updateTime": 1679008422,
+      "createTime": 1679007821,
+      "histories": [],
+      "created_at": "2023-03-17 01:03:41",
+      "updated_at": "2023-03-17 01:13:42"
+    },
+    {
+      "uuid": "84c215d4ff5fc480aa66ebf8fce2742e",
+      "puuid": "803ea6dd3a9376bd088ef70cc47e790d",
+      "title": "PCB_Energy_Meter_Final__",
+      "filename": "PCB_Energy_Meter_Final__.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4b40fc4a193049649ab7993bf67eaca9": 1,
+        "be1b3456245c4373bfecde52b7e1b1d6": 2,
+        "e46b9352a8354a20870bdcdcb288663a": 3,
+        "b9c3b3f60d3042488951aed8bc18931f": 1,
+        "32237b573f22441890aa5a797533ed01": 1,
+        "8e7e08da2892424fa3242ee0ebf33b7f": 1
+      },
+      "BOM": [],
+      "updateTime": 1679008741,
+      "createTime": 1679008318,
+      "histories": [],
+      "created_at": "2023-03-17 01:11:58",
+      "updated_at": "2023-03-17 01:19:01"
+    }
+  ],
+  "sort": [],
+  "title": "Energy_Meter_Final__",
+  "foldername": "Energy_Meter_Final__",
+  "schfilename": "Energy_Meter_Final__.json",
+  "schfilemtime": 1679008422148
+}
