@@ -9,7 +9,7 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 #define BLYNK_TEMPLATE_ID "TMPLEwNZlyNP"
 #define BLYNK_TEMPLATE_NAME "Data Monitoring"
-#define BLYNK_AUTH_TOKEN "3QwxM5mq366uxX-QMIGcvWVDw1-oSGnN"
+#define BLYNK_AUTH_TOKEN ""
 
 EnergyMonitor emon;
 #define vCalibration 154.4
